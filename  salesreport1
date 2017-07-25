@@ -1,0 +1,30 @@
+Algorithm
+
+Prompt user for- “name”
+prompt user for -"Taxcode"
+prompt user for -"Sales amount"
+Store all inputs from user
+Check for tax codes: -
+1.	If user inputs taxcode “0”-Tax exempt
+2.	If user inputs taxcode“1” –Calculates tax amt
+3.	If user inputs tax code "3 “-Calculates tax amt
+4. if user inputs taxcode "other"- displays the error message and re-prompt the user
+At the end detail sales report displays with taxcode,customername,sales amt,tax amt and total amt
+
+Pseudocode
+step 1: Initialize an empty string,int and double
+step 2: Construct a new “Scanner” object
+Step 3: prompt the user
+Step 4: Get the user input
+Step 5: If user prompts correct
+	process tax amount
+	If user prompts wrong with wrong value
+	displays the error messagea nd prompts the suer again
+end if
+print the sales report as a heading
+print the detail sales report 
+	System quits
+	else
+	Display error message and re-prompts again
+	End if
+End while
